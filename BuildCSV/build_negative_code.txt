@@ -1,0 +1,48 @@
+#include <iostream>
+#include <cstring>
+#include <windows.h>
+#include <string>
+#include <vector>
+#include <fstream>
+using namespace std;
+vector<string> listFiles(const char * dir);
+
+int main()
+{
+	using namespace std;
+	std::string src = "F:/training/nagative/negative_training";
+	char const *dir = src.c_str();
+	vector<string> res;
+	res = listFiles(dir);
+	res.erase(res.begin());
+	res.erase(res.begin());
+	ofstream outfile;
+	outfile.open("negative_data_collect.csv");
+	int size = res.size();
+	int count = 0;
+	while(count < size)
+	{
+		string dir = "F:\\training\\nagative\\negative_training\\" + res[count];
+		outfile << dir << endl;
+		count++;
+	}
+	return 0;
+}
+
+vector<string> listFiles(const char * dir)
+{
+	vector<string> res;
+	using namespace std;
+	HANDLE hFind;
+	WIN32_FIND_DATA findData;
+	char dirNew[100];
+	strcpy(dirNew, dir);
+	strcat(dirNew, "\\*.*");
+	hFind = FindFirstFile(dirNew, &findData);
+	do
+	{
+		res.push_back(findData.cFileName);
+	} while (FindNextFile(hFind, &findData));
+	FindClose(hFind);
+	return res;
+}
