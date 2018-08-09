@@ -23,7 +23,11 @@ May have these reasons:<br>
 3. By tracking smoke path(Gaussian Mixed Model) to replace by using training model to detect the smoke.[code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/check_Smoke.PNG)<br>
 4. Draw Rect to display the fire and smoke area.
 
-
+Program Result:
+-
+[Fire Image testing](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/fire_image_check.PNG)
+<br>
+[Smoke_Video_testing](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/smoke_video_check.PNG)<br>
 
 Improvement:
 -
