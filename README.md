@@ -19,7 +19,7 @@ Working processes:
 Using opncv opencv_createsamples.exe and opencv_traincascade.exe to tain the data. After [training](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/createSamples.PNG), the test [result](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/cascade.xml) didn't show what I expect. <br>
 May have these reasons:<br>
     a) The positive data source and negative source very samiliar. For emample the cloud images produce the small differences with smoke. <br>
-    b) The CPU i5 is not that fast for training, some parameter limit the data accuracy.<br>
+    b) The CPU i5 is not that fast for training, some parameters based on the cpu performance which limit the data accuracy.<br>
 3. By tracking smoke path(Gaussian Mixed Model) to replace by using training model to detect the smoke.[code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/check_Smoke.PNG)<br>
 4. Draw Rect to display the fire and smoke area.
 
