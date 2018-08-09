@@ -2,7 +2,7 @@
 
 Discription:
 -
-A simple application to help people detect the mountain fire in a large scope
+A simple application to help people detect the mountain fire in a large scope to avoid casualties.
 
 
 Problem solution:
