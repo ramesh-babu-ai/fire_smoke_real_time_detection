@@ -14,7 +14,7 @@ Problem solution:
   
 Working processes:
 -
-1. Spliting the image to 3 channels image and get the R G B value. ![image](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Check_RGB_COLOR.PNG)</br> 
+1. Spliting the image to 3 channels image and get the R G B value. [image](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Check_RGB_COLOR.PNG)</br> 
 2. 
 
 
