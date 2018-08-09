@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\administrator\desktop\mountain_ fire_monitor_and_detector\mountain_ fire_monitor_and_detector\main.cpp(27): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  Mountain_ Fire_Monitor_And_Detector.vcxproj -> C:\Users\Administrator\Desktop\Mountain_ Fire_Monitor_And_Detector\x64\Debug\Mountain_ Fire_Monitor_And_Detector.exe
