@@ -1,0 +1,8 @@
+﻿  build.cpp
+c:\users\administrator\desktop\buildcsv\buildcsv\build.cpp(31): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\users\administrator\desktop\buildcsv\buildcsv\build.cpp(32): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: see declaration of 'strcat'
+  _CRT_SECURE_NO_WARNINGS
+c1xx : fatal error C1083: Cannot open source file: '_CRT_SECURE_NO_WARNINGS': No such file or directory
+  Generating Code...
