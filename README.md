@@ -43,6 +43,6 @@ All rights reversed by Jie Zheng™ 2018
 Reference
 -
 [1] Experimental Study of Video Fire Detection and its Applications Arthur K.K.WongN.K.Fong<br>
-[2] CVPR Lab. at Keimyung University.Wildfire smoke ideo Database[DB/OL].htt-p://cvp- r.kmu.ac.kr/, 2012/2015-12-20.<br>
-[3] University of Salerno.Smoke Detection Dataset[DB/OL].http://mivia.unisa.it/2012-7/2015-12-20.<br>
-[4] Cetin, E., Computer Vision Based Fire Detection Dataset[DB/OL].http://sig-nal.ee.bilke- nt.edu.tr/VisiFire/Demo/SmokeClips/ 2014/2015-12-20.
+[2] CVPR Lab. at Keimyung University.Wildfire smoke ideo Database[DB/OL]. http://cvp- r.kmu.ac.kr/, 2012/2015-12-20.<br>
+[3] University of Salerno.Smoke Detection Dataset[DB/OL]. http://mivia.unisa.it/2012-7/2015-12-20.<br>
+[4] Cetin, E., Computer Vision Based Fire Detection Dataset[DB/OL].http://sig-nal.ee.bilke-nt.edu.tr/VisiFire/Demo/SmokeClips/ 2014/2015-12-20.
