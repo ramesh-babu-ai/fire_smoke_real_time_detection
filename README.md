@@ -34,17 +34,17 @@ Improvement:
 1. Using Gaussian Mixed Model to detect the moving smoke also will be triggered by moving anaimals. Such as bird so need to double detect the thing's color to make sure the anaimal or the fire. But what if the mountain fire doesn't have light just smoke, how the program knows it is fire rather than anaimal when we use tracking model? I think still need to based on the training model and more training source. May try to use ANN or CNN in the future.
 2. Another thing is that can add some sensors to help the program to detect the environment and collect more useful data. For example the tempure sensors and smoke sensors. 
 
-Tools
+Tools:
 -
 Visual Studio<br>
 Opencv packages<br>
 
-Developer
+Developer:
 -
 Jay Zheng<br>
 All rights reversed by Jie Zheng™ 2018
 
-Reference
+Reference:
 -
 [1] Experimental Study of Video Fire Detection and its Applications Arthur K.K.WongN.K.Fong<br>
 [2] CVPR Lab. at Keimyung University.Wildfire smoke ideo Database[DB/OL]. http://cvp-r.kmu.ac.kr/, 2012/2015-12-20.<br>
