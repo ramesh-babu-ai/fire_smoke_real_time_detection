@@ -5,14 +5,14 @@ Discription:
 A simple application to help people detect the mountain fire in a large scope to avoid casualties.
 
 
-Problem solution:
+Problem Solution:
 -
 1. Based on the specific RGB formula to detect the fire.[1] </br>
 2. Consider some of mountain fires are happened with the smoke first because the wet environment, so detect the smoke without specific RGB formular.</br>
   a) Using LBP or HARR training the data source.[2-4] </br>
   b) Tracking the smoke moving paths by using GMM(Gaussian Mixed Model). </br>
   
-Working processes:
+Working Processes:
 -
 1. Spliting the image to 3 channels image and get the R G B value. [code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Check_RGB_COLOR.PNG)</br> 
 2. Build the positive smoke csv file and negative csv file for LBP or HARR training. [positive file code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/BuildCSV/build_positive_code.txt) [negative file code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/BuildCSV/build_negative_code.txt)<br>
