@@ -25,10 +25,11 @@ May have these reasons:<br>
 
 Program Result:
 -
-Fire Image testing
-(https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/fire_image_check.PNG)
+Fire Image testing<br>
+src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/fire_image_check.PNG"
 <br>
-[Smoke Video testing](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/smoke_video_check.PNG)<br>
+Smoke Video testing<br>
+src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/smoke_video_check.PNG"<br>
 
 Improvement:
 -
