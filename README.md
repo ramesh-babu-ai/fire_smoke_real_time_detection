@@ -26,7 +26,7 @@ May have these reasons:<br>
 Program Result:
 -
 Fire Image testing<br>
-<img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/fire_image_check.png"/>
+<img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/fire_image_check.PNG"/>
 <br>
 <br>
 Smoke Video testing<br>
