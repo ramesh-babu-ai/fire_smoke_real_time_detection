@@ -45,12 +45,13 @@ Preparetion:<br>
   3. install necessary packages, suach as tensorflow and numpy<br>
   4. suggest to use pycharm<br>
   <br>
-Training data:
+Training data:<br>
   run main.py<br>
   <br>
 Testing data:<br>
   1.save the image into the testing file, specific data path please check the code (so far each time can only take one image, will improve with a loop)<br>
-  2.run test.py<br>
+  2.modify the parameters for your necessary
+  3.run test.py<br>
   <br>
 
 
