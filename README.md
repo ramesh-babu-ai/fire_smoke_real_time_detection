@@ -51,7 +51,6 @@ Part 2: With machine learning CNN model to identify the smoke image
     2. run main.py<br>
   <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/TrainingResult.jpg"/><br>
 
-  <br>
 3)Testing data:
 -
     1. save the image into the testing file, specific data path please check the code (so far each time can only take one image, will improve with a loop)<br>
