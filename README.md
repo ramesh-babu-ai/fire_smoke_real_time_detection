@@ -45,7 +45,6 @@ Part 2: With machine learning CNN model to identify the smoke image
     2. download and set the path for python v3.0+<br>
     3. install necessary packages, such as tensorflow and numpy<br>
     4. suggest to use pycharm<br>
-  <br>
 2)Training data:
 -
     1. 0 represent the positive dataset, 1 represent the negative dataset.
