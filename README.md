@@ -37,14 +37,23 @@ Improvement:
 1. Using Gaussian Mixed Model to detect the moving smoke also will be triggered by moving anaimals. Such as bird so need to double detect the thing's color to make sure the anaimal or the fire. But what if the mountain fire doesn't have light just smoke, how the program knows it is fire rather than anaimal when we use tracking model? I think still need to based on the training model and more training source. May try to use ANN or CNN in the future.
 2. Another thing is that can add some sensors to help the program to detect the environment and collect more useful data. For example the tempure sensors and smoke sensors. 
 
-#Part 2: With machine learning CNN model to identify the smoke image
+Part 2: With machine learning CNN model to identify the smoke image
 -
-preparetion:<br>
+Preparetion:<br>
+  1.(IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk<br>
+  2. download and set the path for python v3.0+<br>
+  3. install necessary packages, suach as tensorflow and numpy<br>
+  4. suggest to use pycharm<br>
+  <br>
+Training data:
+  run main.py<br>
+  <br>
+Testing data:<br>
+  1.save the image into the testing file, specific data path please check the code (so far each time can only take one image, will improve with a loop)<br>
+  2.run test.py<br>
+  <br>
 
-1(IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk<br>
-  
-step1: run main.py
-step2:
+
 
 Tools:
 -
