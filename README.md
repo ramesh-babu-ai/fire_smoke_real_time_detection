@@ -42,7 +42,7 @@ Part 2: With machine learning CNN model to identify the smoke image
 Preparetion:<br>
   1.(IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk<br>
   2. download and set the path for python v3.0+<br>
-  3. install necessary packages, suach as tensorflow and numpy<br>
+  3. install necessary packages, such as tensorflow and numpy<br>
   4. suggest to use pycharm<br>
   <br>
 Training data:<br>
