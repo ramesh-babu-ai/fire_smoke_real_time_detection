@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:/training/log/thing.ckpt"
+all_model_checkpoint_paths: "F:/training/log/thing.ckpt"
