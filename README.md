@@ -12,7 +12,7 @@ Problem Solution:
   a) Using LBP or HARR training the data source.[2-4] </br>
   b) Tracking the smoke moving paths by using GMM(Gaussian Mixed Model). </br>
   
-Working Processes:
+Part 1: without machine learning Working Processes:
 -
 1. Spliting the image to 3 channels image and get the R G B value. [code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Check_RGB_COLOR.PNG)</br> 
 2. Build the positive smoke csv file and negative csv file for LBP or HARR training. [positive file code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/BuildCSV/build_positive_code.txt) [negative file code](https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/BuildCSV/build_negative_code.txt)<br>
@@ -36,6 +36,15 @@ Improvement:
 -
 1. Using Gaussian Mixed Model to detect the moving smoke also will be triggered by moving anaimals. Such as bird so need to double detect the thing's color to make sure the anaimal or the fire. But what if the mountain fire doesn't have light just smoke, how the program knows it is fire rather than anaimal when we use tracking model? I think still need to based on the training model and more training source. May try to use ANN or CNN in the future.
 2. Another thing is that can add some sensors to help the program to detect the environment and collect more useful data. For example the tempure sensors and smoke sensors. 
+
+#Part 2: With machine learning CNN model to identify the smoke image
+-
+preparetion:<br>
+
+1(IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk<br>
+  
+step1: run main.py
+step2:
 
 Tools:
 -
