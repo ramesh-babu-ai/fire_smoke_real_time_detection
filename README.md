@@ -41,21 +41,21 @@ Part 2: With machine learning CNN model to identify the smoke image
 -
 1)Preparetion:
 -
-    1. (IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk<br>
-    2. download and set the path for python v3.0+<br>
-    3. install necessary packages, such as tensorflow and numpy<br>
-    4. suggest to use pycharm<br>
+    1. (IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk
+    2. download and set the path for python v3.0+
+    3. install necessary packages, such as tensorflow and numpy
+    4. suggest to use pycharm
 2)Training data:
 -
     1. 0 represent the positive dataset, 1 represent the negative dataset.
-    2. run main.py<br>
+    2. run main.py
   <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/TrainingResult.jpg"/><br>
 
 3)Testing data:
 -
-    1. save the image into the testing file, specific data path please check the code (so far each time can only take one image, will improve with a loop)<br>
+    1. save the image into the testing file, specific data path please check the code (so far each time can only take one image, will improve with a loop)
     2. modify the parameters for your necessary
-    3.run test.py<br>
+    3.run test.py
     
    <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/TestingResult.jpg"/><br>
 
