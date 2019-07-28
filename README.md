@@ -71,7 +71,9 @@ Opencv packages<br>
 Developer:
 -
 Jay Zheng<br>
-All rights reversed by Jie Zheng™ 2018
+Chio Lao<br>
+Zheqi Wang<br>
+All rights reversed by SJSU Computer Engineering CMPE195E™ 2019
 
 Reference:
 -
