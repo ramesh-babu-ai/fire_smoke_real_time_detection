@@ -39,6 +39,14 @@ Improvement:
 
 Part 2: With machine learning CNN model to identify the smoke image
 -
+The implementation is based on TensorFlow framework which is the most widely used in the machine learning industries. TensorFlow has the ability to utilize GPU or CPU computing power which reduced the training process significantly through parallel acceleration. The whole system is using Python and C++, which is the industry standard of machine learning due to its diversified API that shorten the implementation span.  
+
+The CNN model followed the AlexNet Architecture. The fundamental parts to build the CNN consisted of the following parts: Convolution, Polling, Flattening. However, the AlexNet architecture involved with five convolutional layers, followed by maximum pooling layers, then fully connected layers and SoftMax classifier. One of the restrictions for AlexNet is the input of an RGB image must be size of 256x256 fixed because of fully connected layers, where the input training set must resize it to be 256x 256.
+  <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/CNN_Design%20Architecture.png"/><br>
+  
+ The following image showed the implmentation's model: 
+  <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Summary%20of%20Compiled%20Model.png"/><br>
+
 1)Preparetion:
 -
     1. (IMPORTANT!) In order to match with the code, save the tranning file into the root of F:\ disk
@@ -48,6 +56,8 @@ Part 2: With machine learning CNN model to identify the smoke image
 2)Training data:
 -
     1. 0 represent the positive dataset, 1 represent the negative dataset.
+     <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/Training_Result.PNG"/><br>
+     
     2. run main.py
   <img src="https://github.com/Jayupp/Mountain_Fire_And_Smoke_Detector/blob/master/ReadMe%20source/TrainingResult.jpg"/><br>
 
